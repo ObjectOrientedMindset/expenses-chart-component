@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    /* Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+  </style>
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="box-1">
+      <div class="headers">
+        <div class="balance">My balance</div>
+        <div class="total">$921.48</div>
+      </div>
+      <img src="./images/logo.svg" alt="logo" class="logo">
+    </div>
+    <div class="box-2">
+      <h2 class="box-2-header">Spending - Last 7 days</h2>
+      <div class="prices">
+        <p id="mon_price" class="mon-price">$17.45</p>
+        <p id="tue_price" class="tue-price">$34.91</p>
+        <p id="wed_price" class="wed-price">$52.36</p>
+        <p id="thu_price" class="thu-price">$31.07</p>
+        <p id="fri_price" class="fri-price">$23.39</p>
+        <p id="sat_price" class="sat-price">$43.28</p>
+        <p id="sun_price" class="sun-price">$25.48</p>
+      </div>
+      <div class="chart-container">
+        <div id="mon" class="box box-mon"></div>
+        <div id="tue" class="box box-tue"></div>
+        <div id="wed" class="box box-wed"></div>
+        <div id="thu" class="box box-thu"></div>
+        <div id="fri" class="box box-fri"></div>
+        <div id="sat" class="box box-sat"></div>
+        <div id="sun" class="box box-sun"></div>
+      </div>
+      <div class="days">
+        <p class="mon"> mon</p>
+        <p class="tue"> tue</p>
+        <p class="wed"> wed</p>
+        <p class="thu"> thu</p>
+        <p class="fri"> fri</p>
+        <p class="sat"> sat</p>
+        <p class="sun"> sun</p>
+      </div>
+      <hr>
+      <div class="footer">
+        <div class="footer-left">
+          <h3 class="footer-title">Total this month</h3>
+          <span id="total_amount" class="total-amount">$478.33</span>
+        </div>
+        <div class="footer-right">
+          <h3 class="percentage">+2.4%</h3>
+          <h4 class="footer-desc">from last month</h4>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mithat Uçar</a>.
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
+

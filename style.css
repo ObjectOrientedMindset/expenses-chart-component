@@ -1,0 +1,314 @@
+body{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  background-color:hsl(27, 66%, 92%);
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.box-1{
+  display: flex;
+  flex-basis:content;
+  color: white;
+  width: 540px;
+  height: 100px;
+  background-color:hsl(10, 79%, 65%);
+  margin-bottom: 20px; 
+  border-radius: 20px;
+}
+.headers{
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+   
+}
+.total{
+  font-weight: 700;
+  font-size:xx-large;
+  padding-top: 10px;
+}
+.logo{
+  padding-left: 300px;
+}
+
+
+
+.box-2{
+  width: 540px;
+  background-color:white;
+  border-radius: 20px;
+}
+
+.box-2-header{
+  padding-left: 30px;
+  font-size:xx-large;
+}
+
+.chart-container{
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.box{
+  width: 48px;
+  background-color: hsl(10, 79%, 65%);
+  margin: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.box-mon{
+  height: 52.35px;
+}
+.box-tue{
+  height: 104.73px;
+}
+.box-wed{
+  height: 157.08px;
+}
+.box-thu{
+  height: 93.21px;
+}
+.box-fri{
+  height: 70.17px;
+}
+.box-sat{
+  height: 129.84px;
+}
+.box-sun{
+  height: 76.44px;
+}
+
+.days{
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  color: hsl(28, 10%, 53%);
+  margin-left: 10px;
+  margin-top: -20px;
+  font-size:small;
+}
+.mon{
+  margin-left: 10px;
+}
+.tue{
+  margin-left: 48px;
+}
+.wed{
+  margin-left: 46px;
+}
+.thu{
+  margin-left: 48px;
+}
+.fri{
+  margin-left: 53px;
+}
+.sat{
+  margin-left: 53px;
+}
+.sun{
+  margin-left: 50px;
+}
+
+.prices{
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-top: -20px;
+  font-size:small;
+  color: white;
+  position: absolute;
+}
+.mon-price{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  margin-top: 105px;
+  border-radius: 5px;
+}
+.tue-price{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  position: absolute;
+  margin-left: 67px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.wed-price{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  position: absolute;
+  margin-left: 136px;
+  margin-top: 0%;
+  border-radius: 5px;
+}
+.thu-price{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  position: absolute;
+  margin-left: 203px;
+  margin-top: 62px;
+  border-radius: 5px;
+}
+.fri-price{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  position: absolute;
+  margin-left: 270px;
+  margin-top: 85px;
+  border-radius: 5px;
+}
+.sat-price{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  position: absolute;
+  margin-left: 340px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.sun-price{
+  display: flex;
+  align-items: center;
+  height: 25px;
+  position: absolute;
+  margin-left: 407px;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+hr{
+  padding: 0%;
+  
+  border:none;
+  height: 2px;
+  width: 460px;
+  background: #f8e9dd;
+  
+}
+
+.footer{
+  margin:40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title{
+  margin:0%;
+  margin-top: 20px;
+  font-weight: 400;
+  color: hsl(28, 10%, 53%);
+  font-size:18px;
+}
+.total-amount{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-right{
+  margin-top: 30px;
+}
+.percentage{
+  margin-bottom: 0%;
+  margin-left: 65px;
+}
+.footer-desc{
+  margin: 0%;
+  font-weight: 400;
+  color: hsl(28, 10%, 53%);
+  font-size:18px;
+}
+
+@media (max-width: 650px)
+{
+  .box-1{
+    width: 400px;
+  }
+  .logo{
+    padding-left: 150px;
+  }
+  .box-2{
+    width: 400px;
+  }
+  .chart-container{
+    padding-left: 11px;
+  }
+  .box{
+    width: 40px;
+    margin: 7px;
+  }
+  .days{
+    padding-left: 0%;
+  }
+  .tue{
+    margin-left: 38px;
+  }
+  .wed{
+    margin-left: 32px;
+  }
+  .thu{
+    margin-left: 34px;
+  }
+  .fri{
+    margin-left: 40px;
+  }
+  .sat{
+    margin-left: 40px;
+  }
+  .sun{
+    margin-left: 34px;
+  }
+  .prices{
+    margin: 0%;
+    padding: 0%;
+  }
+  .mon-price{
+    margin-left: 18px;
+    margin-top: 80px;
+  }
+  .tue-price{
+    margin-left: 72px;
+    margin-top: 25px;
+  }
+  .wed-price{
+    margin-left: 126px;
+    margin-top: -25px;
+  }
+  .thu-price{
+    margin-left: 181px;
+    margin-top: 40px;
+  }
+  .fri-price{
+    margin-left: 235px;
+    margin-top: 60px;
+  }
+  .sat-price{
+    margin-left: 288px;
+    margin-top: 0%;
+  }
+  .sun-price{
+    margin-left: 342px;
+    margin-top: 55px;
+  }
+
+  hr{
+    width: 365px;
+  }
+  .footer{
+    margin: 20px;
+  }
+}
+
+
+
